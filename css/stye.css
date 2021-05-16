@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 100%;
+  min-width: 999px;
+  height: 100%;
+  background-color: #fff;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+  transition: color 0.3s;
+}
+
+.preview .txt .title:hover,
+.ranking .rank:hover .title,
+.shipItem:hover span,
+.pageTab li:hover p,
+.pic a:hover,
+.item span:hover,
+.info a:hover,
+.con .name:hover,
+.promotion .proxy-tabs .online:hover a {
+  color: #1890ff;
+}
+
+/* 联系客服 */
+body {
+  position: relative;
+}
+
+.service {
+  position: fixed;
+  left: 0;
+  top: 45%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 72px;
+  text-align: center;
+  z-index: 10;
+  padding: 8px 7px;
+  background-color: #fff;
+  box-shadow: 0 6px 20px 0 #e7e7e7;
+  border-radius: 0 2px 2px 0;
+  line-height: 14px;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+/* 播放按钮 */
+.play {
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.play::before {
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url('./../image/play_hover.png') no-repeat center center;
+  background-size: 80%;
+}
+
+/* 单个项目 */
+.pic {
+  width: 206px;
+  height: 192px;
+}
+
+.pic .card-pic {
+  position: relative;
+  width: 100%;
+  height: 116px;
+  font-size: 12px;
+}
+
+.pic .card-pic img {
+  width: 100%;
+  height: 116px;
+}
+
+.pic .card-pic .count {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 16px;
+  color: #fff;
+  padding: 6px 8px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pic .pic-title {
+  height: 40px;
+  line-height: 20px;
+  margin: 10px 0 8px;
+  padding-right: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  transition: color 0.5s;
+}
+
+.pic .bili_tag {
+  width: 100%;
+  height: 16px;
+  font-size: 12px;
+  color: #999;
+  line-height: 16px;
+  transition: color 0.5s;
+}
+
+.pic .bili_tag .bili_icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 4px;
+  background: url('./../image/UP_Person.png') no-repeat center;
+  background-size: 100%;
+}
+
+.pic .card-pic .count .left span {
+  margin-right: 5px;
+}
+
+.pic .card-pic .count .left span i::before {
+  content: '';
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.pic .card-pic .count .left span:nth-child(1) i::before {
+  background: url('../image/play_white.png') no-repeat center;
+  background-size: cover;
+}
+
+.pic .card-pic .count .left span:nth-child(2) i::before {
+  background: url('../image/like.png') no-repeat center;
+  background-size: cover;
+}
+
+/* 主体部分 */
+.slide-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  height: 242px;
+  margin-bottom: 40px;
+}
+
+/* 左侧轮播图 */
+.slide-wrap .slide {
+  position: relative;
+  width: 550px;
+  min-width: 439px;
+  height: 242px;
+  background-color: #6dc781;
+}
+
+.recommend,
+.slide .slide_items {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.slide .slide_items .item,
+.recommend .item {
+  position: relative;
+  transition: left 3s;
+}
+
+.item .item_pic {
+  width: 100%;
+  height: 100%;
+}
+
+.item .item_title {
+  position: absolute;
+  left: 12px;
+  bottom: 10px;
+  width: 70%;
+  color: #fff;
+  align-items: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.slide .slide_items .item {
+  width: 550px;
+  height: 242px;
+}
+
+.recommend .item {
+  width: 320px;
+  height: 330px;
+}
+
+.recommend .trigger,
+.slide .trigger {
+  position: absolute;
+  right: 12px;
+  bottom: 8px;
+  z-index: 10;
+}
+.recommend .trigger span:hover,
+.slide .trigger span:hover {
+  width: 9px;
+  height: 9px;
+  border: 2px solid #e7e7e7;
+  background-color: #1890ff;
+}
+.recommend .trigger span,
+.slide .trigger span {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-left: 10px;
+  background-color: #fff;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  vertical-align: middle;
+  transition: all 0.3s;
+}
+
+/* 当前轮播图 */
+.recommend .trigger .on,
+.slide .trigger .on {
+  width: 20px;
+  height: 20px;
+  border-width: 0;
+  background: url('./../image/slide_selected.png') no-repeat center;
+  background-size: cover;
+}
+
+/* 右侧推荐图 */
+.slide-wrap .wrap {
+  position: relative;
+  width: 638px;
+  height: 242px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.wrap .more {
+  position: absolute;
+  top: 0;
+  right: -36px;
+  width: 28px;
+  height: 77px;
+  box-sizing: border-box;
+  border: 1px solid silver;
+  text-align: center;
+  color: #505050;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 14px;
+  padding-top: 6px;
+  border-radius: 2px;
+  font-size: 13px;
+}
+.wrap .more:hover i {
+  transform: rotate(-540deg);
+}
+.wrap .more i {
+  width: 16px;
+  height: 16px;
+  background: url('../image/Refresh.png') no-repeat center;
+  background-size: contain;
+  margin-bottom: 4px;
+  transition: all 0.8s;
+}
+
+.wrap .pic {
+  position: relative;
+  width: 202px;
+  height: 116px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.wrap .pic .box_pic {
+  height: 100%;
+  height: 100%;
+}
+
+.wrap .pic .up {
+  position: absolute;
+  top: 83px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  transition: top 0.2s;
+}
+
+.wrap .pic .up .mov_title {
+  height: 18px;
+  line-height: 18px;
+  z-index: 2;
+  margin-bottom: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.wrap .pic:hover .up {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.wrap .pic .up:hover .mov_title {
+  height: 36px;
+  white-space: normal;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.wrap .pic .up .mov_column {
+  color: #e0e0e0;
+  margin-bottom: 6px;
+  font-size: 12px;
+}
+
+.wrap .pic .up .mov_column .bili_icon {
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.wrap .pic .up .mov_column .bili_icon::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url('./../image/UP_Person.png') no-repeat center;
+  background-size: contain;
+}
+
+.wrap .pic .up .mov_play_info {
+  color: #e0e0e0;
+  font-size: 12px;
+}
+
+/* 新番时刻表类开始 */
+.line-card {
+  width: 227px;
+  height: 70px;
+  margin: 0 30px 24px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.line-card .line-card-pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 2px;
+  margin-right: 12px;
+  overflow: hidden;
+}
+.line-card .line-card-pic img {
+  width: 100%;
+  height: 100%;
+}
+.line-card .line-card-txt {
+  width: 152px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.line-card .line-card-txt .name {
+  height: 37px;
+  margin: 2px 0 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  transition: color 0.3s;
+}
+.line-card .line-card-txt .name:hover {
+  color: #1890ff;
+}
+.line-card .line-card-txt .update {
+  font-size: 12px;
+  color: #1890ff;
+}
+/* 当天没有数据 */
+.no-data {
+  position: relative;
+  background: url(./../img/anime/nodata.png) no-repeat center;
+  background-size: 45%;
+}
+.no-data .nodata {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  color: #99a2aa;
+}
+/* 新番时刻表类结束 */
+
+/* 排行榜-更新类开始 */
+.ranking .rank .content {
+  display: flex;
+  justify-content: space-between;
+}
+.ranking .rank .content .title {
+  width: 198px;
+}
+.ranking .rank .content .update {
+  width: 90px;
+  font-size: 12px;
+  color: #99a2aa;
+  text-align: right;
+}
+/* 排行榜-更新类结束 */

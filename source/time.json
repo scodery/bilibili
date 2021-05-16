@@ -1,0 +1,369 @@
+{
+  "anime": {
+    "week": [
+      {
+        "id": 0,
+        "image": "./upload/anime/week_1/anime01.webp",
+        "title": "烧窑的话也要马克杯",
+        "update": "第6话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38243/"
+      },
+      {
+        "id": 1,
+        "image": "./upload/anime/week_1/anime02.webp",
+        "title": "这爱情有点奇怪",
+        "update": "第7话",
+        "link": "https://www.bilibili.com/bangumi/play/ss37924/"
+      },
+      {
+        "id": 2,
+        "image": "./upload/anime/week_3/anime01.webp",
+        "title": "圣女魔力无所不能",
+        "update": "第6话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38236/"
+      },
+      {
+        "id": 3,
+        "image": "./upload/anime/week_3/anime02.webp",
+        "title": "愤怒的审判",
+        "update": "第18话",
+        "link": "https://www.bilibili.com/bangumi/play/ss36362/"
+      },
+      {
+        "id": 4,
+        "image": "./upload/anime/week_3/anime03.webp",
+        "title": "青梅竹马绝对不会输的恋爱喜剧",
+        "update": "第2话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38222/"
+      },
+      {
+        "id": 5,
+        "image": "./upload/anime/week_4/anime01.webp",
+        "title": "地球先锋队（中配版）",
+        "update": "第13话~第14话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38339/"
+      },
+      {
+        "id": 6,
+        "image": "./upload/anime/week_4/anime02.webp",
+        "title": "通灵王",
+        "update": "第7话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38353/"
+      },
+      {
+        "id": 7,
+        "image": "./upload/anime/week_4/anime03.webp",
+        "title": "佐贺偶像是传奇 卷土重来",
+        "update": "第6话",
+        "link": "https://www.bilibili.com/bangumi/play/ss37575/"
+      },
+      {
+        "id": 8,
+        "image": "./upload/anime/week_5/anime01.webp",
+        "title": "致不灭的你",
+        "update": "第5话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38214/"
+      },
+      {
+        "id": 9,
+        "image": "./upload/anime/week_5/anime02.webp",
+        "title": "转生成蜘蛛又怎样！",
+        "update": "第18话",
+        "link": "https://www.bilibili.com/bangumi/play/ss36167/"
+      },
+      {
+        "id": 10,
+        "image": "./upload/anime/week_5/anime03.webp",
+        "title": "SSSS.电光机王",
+        "update": "第7话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38233/"
+      },
+      {
+        "id": 11,
+        "image": "./upload/anime/week_6/anime01.webp",
+        "title": "巴克·亚罗/BACK ARROW",
+        "update": "第18话",
+        "link": "https://www.bilibili.com/bangumi/play/ep398691/"
+      },
+      {
+        "id": 12,
+        "image": "./upload/anime/week_6/anime02.webp",
+        "title": "蔚蓝反射 澪",
+        "update": "第5话",
+        "link": "https://www.bilibili.com/bangumi/play/ep391747/"
+      },
+      {
+        "id": 13,
+        "image": "./upload/anime/week_6/anime03.webp",
+        "title": "美丽新世界 The Animation/美好世界",
+        "update": "第5话",
+        "link": "https://www.bilibili.com/bangumi/play/ep399488/"
+      },
+      {
+        "id": 14,
+        "image": "./upload/anime/week_6/anime04.webp",
+        "title": "纯白之音",
+        "update": "第6话",
+        "link": "https://www.bilibili.com/bangumi/play/ep391350/"
+      },
+      {
+        "id": 15,
+        "image": "./upload/anime/week_6/anime05.webp",
+        "title": "卡片战斗先导者overDress",
+        "update": "第5话",
+        "link": "https://www.bilibili.com/bangumi/play/ep399663/"
+      },
+      {
+        "id": 16,
+        "image": "./upload/anime/week_6/anime06.webp",
+        "title": "名侦探柯南",
+        "update": "第1062话",
+        "link": "https://www.bilibili.com/bangumi/play/ss33378/"
+      },
+      {
+        "id": 17,
+        "image": "./upload/anime/week_6/anime07.webp",
+        "title": "打了300年的史莱姆，不知不觉就练到了满级",
+        "update": "第5话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38229/"
+      },
+      {
+        "id": 18,
+        "image": "./upload/anime/week_7/anime01.webp",
+        "title": "薇薇 -萤石眼之歌-",
+        "update": "第3话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38260/"
+      },
+      {
+        "id": 19,
+        "image": "./upload/anime/week_7/anime02.webp",
+        "title": "大运动会 重启",
+        "update": "第5话",
+        "link": "https://www.bilibili.com/bangumi/play/ss37486/"
+      },
+      {
+        "id": 20,
+        "image": "./upload/anime/week_7/anime03.webp",
+        "title": "伊甸星原 EDENS ZERO",
+        "update": "第5话",
+        "link": "https://www.bilibili.com/bangumi/play/ep399525/"
+      },
+      {
+        "id": 21,
+        "image": "./upload/anime/week_7/anime04.webp",
+        "title": "关于我转生变成史莱姆这档事 转生史莱姆日记",
+        "update": "第3话",
+        "link": "https://www.bilibili.com/bangumi/play/ep395213/"
+      },
+      {
+        "id": 22,
+        "image": "./upload/anime/week_7/anime05.webp",
+        "title": "龙先生，想要买个家 / 龙族买房",
+        "update": "第6话",
+        "link": "https://www.bilibili.com/bangumi/play/ep399513/"
+      },
+      {
+        "id": 23,
+        "image": "./upload/anime/week_7/anime06.webp",
+        "title": "装甲重拳/MEGALOBOX 第二季",
+        "update": "第6话",
+        "link": "https://www.bilibili.com/bangumi/play/ep395233/"
+      },
+      {
+        "id": 24,
+        "image": "./upload/anime/week_7/anime07.webp",
+        "title": "忧国的莫里亚蒂 后半",
+        "update": "第17话",
+        "link": "https://www.bilibili.com/bangumi/play/ep395963/"
+      }
+    ],
+    "monday": [
+      {
+        "id": 0,
+        "image": "./upload/anime/week_1/anime01.webp",
+        "title": "烧窑的话也要马克杯",
+        "update": "第6话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38243/"
+      },
+      {
+        "id": 1,
+        "image": "./upload/anime/week_1/anime02.webp",
+        "title": "这爱情有点奇怪",
+        "update": "第7话",
+        "link": "https://www.bilibili.com/bangumi/play/ss37924/"
+      }
+    ],
+    "tuesday": [],
+    "wednesday": [
+      {
+        "id": 0,
+        "image": "./upload/anime/week_3/anime01.webp",
+        "title": "圣女魔力无所不能",
+        "update": "第6话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38236/"
+      },
+      {
+        "id": 1,
+        "image": "./upload/anime/week_3/anime02.webp",
+        "title": "愤怒的审判",
+        "update": "第18话",
+        "link": "https://www.bilibili.com/bangumi/play/ss36362/"
+      },
+      {
+        "id": 2,
+        "image": "./upload/anime/week_3/anime03.webp",
+        "title": "青梅竹马绝对不会输的恋爱喜剧",
+        "update": "第2话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38222/"
+      }
+    ],
+    "thursday": [
+      {
+        "id": 0,
+        "image": "./upload/anime/week_4/anime01.webp",
+        "title": "地球先锋队（中配版）",
+        "update": "第13话~第14话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38339/"
+      },
+      {
+        "id": 1,
+        "image": "./upload/anime/week_4/anime02.webp",
+        "title": "通灵王",
+        "update": "第7话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38353/"
+      },
+      {
+        "id": 2,
+        "image": "./upload/anime/week_4/anime03.webp",
+        "title": "佐贺偶像是传奇 卷土重来",
+        "update": "第6话",
+        "link": "https://www.bilibili.com/bangumi/play/ss37575/"
+      }
+    ],
+    "friday": [
+      {
+        "id": 0,
+        "image": "./upload/anime/week_5/anime01.webp",
+        "title": "致不灭的你",
+        "update": "第5话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38214/"
+      },
+      {
+        "id": 1,
+        "image": "./upload/anime/week_5/anime02.webp",
+        "title": "转生成蜘蛛又怎样！",
+        "update": "第18话",
+        "link": "https://www.bilibili.com/bangumi/play/ss36167/"
+      },
+      {
+        "id": 2,
+        "image": "./upload/anime/week_5/anime03.webp",
+        "title": "SSSS.电光机王",
+        "update": "第7话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38233/"
+      }
+    ],
+    "saturday": [
+      {
+        "id": 0,
+        "image": "./upload/anime/week_6/anime01.webp",
+        "title": "巴克·亚罗/BACK ARROW",
+        "update": "第18话",
+        "link": "https://www.bilibili.com/bangumi/play/ep398691/"
+      },
+      {
+        "id": 1,
+        "image": "./upload/anime/week_6/anime02.webp",
+        "title": "蔚蓝反射 澪",
+        "update": "第5话",
+        "link": "https://www.bilibili.com/bangumi/play/ep391747/"
+      },
+      {
+        "id": 2,
+        "image": "./upload/anime/week_6/anime03.webp",
+        "title": "美丽新世界 The Animation/美好世界",
+        "update": "第5话",
+        "link": "https://www.bilibili.com/bangumi/play/ep399488/"
+      },
+      {
+        "id": 3,
+        "image": "./upload/anime/week_6/anime04.webp",
+        "title": "纯白之音",
+        "update": "第6话",
+        "link": "https://www.bilibili.com/bangumi/play/ep391350/"
+      },
+      {
+        "id": 4,
+        "image": "./upload/anime/week_6/anime05.webp",
+        "title": "卡片战斗先导者overDress",
+        "update": "第5话",
+        "link": "https://www.bilibili.com/bangumi/play/ep399663/"
+      },
+      {
+        "id": 5,
+        "image": "./upload/anime/week_6/anime06.webp",
+        "title": "名侦探柯南",
+        "update": "第1062话",
+        "link": "https://www.bilibili.com/bangumi/play/ss33378/"
+      },
+      {
+        "id": 6,
+        "image": "./upload/anime/week_6/anime07.webp",
+        "title": "打了300年的史莱姆，不知不觉就练到了满级",
+        "update": "第5话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38229/"
+      }
+    ],
+    "sunday": [
+      {
+        "id": 0,
+        "image": "./upload/anime/week_7/anime01.webp",
+        "title": "薇薇 -萤石眼之歌-",
+        "update": "第3话",
+        "link": "https://www.bilibili.com/bangumi/play/ss38260/"
+      },
+      {
+        "id": 1,
+        "image": "./upload/anime/week_7/anime02.webp",
+        "title": "大运动会 重启",
+        "update": "第5话",
+        "link": "https://www.bilibili.com/bangumi/play/ss37486/"
+      },
+      {
+        "id": 2,
+        "image": "./upload/anime/week_7/anime03.webp",
+        "title": "伊甸星原 EDENS ZERO",
+        "update": "第5话",
+        "link": "https://www.bilibili.com/bangumi/play/ep399525/"
+      },
+      {
+        "id": 3,
+        "image": "./upload/anime/week_7/anime04.webp",
+        "title": "关于我转生变成史莱姆这档事 转生史莱姆日记",
+        "update": "第3话",
+        "link": "https://www.bilibili.com/bangumi/play/ep395213/"
+      },
+      {
+        "id": 4,
+        "image": "./upload/anime/week_7/anime05.webp",
+        "title": "龙先生，想要买个家 / 龙族买房",
+        "update": "第6话",
+        "link": "https://www.bilibili.com/bangumi/play/ep399513/"
+      },
+      {
+        "id": 5,
+        "image": "./upload/anime/week_7/anime06.webp",
+        "title": "装甲重拳/MEGALOBOX 第二季",
+        "update": "第6话",
+        "link": "https://www.bilibili.com/bangumi/play/ep395233/"
+      },
+      {
+        "id": 6,
+        "image": "./upload/anime/week_7/anime07.webp",
+        "title": "忧国的莫里亚蒂 后半",
+        "update": "第17话",
+        "link": "https://www.bilibili.com/bangumi/play/ep395963/"
+      }
+    ]
+  }
+}

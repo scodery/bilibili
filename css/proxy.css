@@ -1,0 +1,532 @@
+/* 剩余部分 */
+.proxy_box {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* 共同代码部分 */
+.proxy-list {
+  width: 854px;
+}
+
+.proxy-tabs {
+  width: 320px;
+}
+
+/* 左侧 */
+.proxy-list .title {
+  height: 36px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.proxy-list .title .con {
+  display: flex;
+}
+
+.proxy-list .title .con svg {
+  width: 36px;
+  height: 36px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.proxy-list .title .con .name {
+  font-size: 20px;
+  margin-right: 20px;
+  line-height: 36px;
+}
+.proxy-list .title .con .week,
+.proxy-list .title .con .info {
+  font-size: 12px;
+  line-height: 36px;
+  color: #505050;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.proxy-tabs .tab .exchange,
+.proxy-list .title .exchange {
+  font-size: 12px;
+  color: #505050;
+  line-height: 16px;
+  display: flex;
+}
+
+.proxy-tabs .tab .exchange span,
+.proxy-list .title .exchange span {
+  border: 1px solid silver;
+  border-radius: 2px;
+  height: 22px;
+  align-items: center;
+  text-align: center;
+  line-height: 20px;
+  transition: all 0.3s;
+}
+
+.proxy-tabs .exchange span:hover,
+.proxy-list .title .exchange span:hover {
+  background-color: rgba(244, 244, 244);
+}
+
+.proxy-list .title .exchange span:nth-child(1) {
+  width: 65px;
+  padding-left: 2px;
+}
+
+.proxy-tabs .tab .exchange span,
+.proxy-list .title .exchange span:nth-child(2) {
+  width: 44px;
+  margin-left: 12px;
+  padding-left: 12px;
+}
+
+.proxy-tabs .exchange span i,
+.proxy-list .title .exchange span i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+}
+
+.proxy-list .title .exchange .change:hover i {
+  transform: rotate(-180deg);
+}
+
+.proxy-list .title .exchange .change i {
+  background: url('../image/Refresh.png') no-repeat center;
+  background-size: contain;
+  margin-right: 4px;
+  transition: all 0.4s;
+}
+
+.proxy-tabs .exchange span i,
+.proxy-list .title .exchange span:nth-child(2) i,
+.anime .proxy-list .title .exchange .time-line i {
+  background: url('../image/right.png') no-repeat center;
+  background-size: contain;
+  margin: 0 2px;
+}
+
+/* 阶层部分 */
+.live-list,
+.cartoon-list,
+.anime-list {
+  height: 404px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+/* 直播类 */
+.live-list .pic .count i::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  vertical-align: middle;
+  background: url('../image/persons.png') no-repeat center;
+  background-size: 140%;
+}
+
+.proxy-list .live-list .pic .up {
+  height: 63px;
+  width: 170px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.proxy-list .live-list .up .up_cover {
+  width: 36px;
+}
+
+.proxy-list .live-list .up .up_cover img {
+  display: inline-block;
+  height: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #f7f7f7;
+}
+
+.proxy-list .live-list .pic .up .up_txt {
+  width: 128px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.proxy-list .live-list .pic:hover .up .up_txt .name {
+  color: #00a1d6;
+}
+
+.proxy-list .live-list .pic .up .up_txt .name {
+  height: 20px;
+  line-height: 20px;
+  transition: color 0.3s;
+}
+
+.proxy-list .live-list .pic .up .up_txt .desc {
+  height: 18px;
+  line-height: 18px;
+  margin-top: 2px;
+  color: #505050;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.proxy-list .live-list .pic .up .up_txt .tag {
+  height: 16px;
+  line-height: 16px;
+  margin-top: 8px;
+  color: #999;
+}
+
+/* 右侧 */
+.proxy-tabs .tab {
+  height: 36px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+/* 选中 */
+.proxy-tabs .tab .on {
+  border-bottom: 1px solid #00a1d6;
+  color: #00a1d6;
+}
+
+.tab .switch_nav-list {
+  margin-right: 12px;
+  height: 22px;
+  width: 48px;
+}
+
+.tab .switch_nav-list:nth-child(2) {
+  width: 60px;
+}
+
+/* 各部分 */
+.proxy_box .promotion,
+.proxy_box .liveSpace,
+.proxy_box .cartoon,
+.proxy_box .anime {
+  height: 456px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 推广部分 */
+.proxy_box .promotion {
+  height: 244px;
+}
+
+.promotion .proxy-list .title .con .name {
+  width: 40px;
+}
+
+.title .info .fire_icon::before {
+  content: '';
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin-right: 3px;
+  vertical-align: middle;
+  background: url('./../image/fire.png') no-repeat center;
+  background-size: contain;
+}
+
+.promotion .proxy-list .promote-list {
+  height: 192px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.promote-list .pic .card-pic .count .left span {
+  display: none;
+}
+
+/* 推广右侧 */
+.promotion .proxy-tabs .online {
+  height: 30px;
+  margin-top: 3px;
+  margin-bottom: 17px;
+  border: 1px solid #e7e7e7;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  background-color: rgba(244, 244, 244);
+  border-radius: 2px;
+}
+
+.promotion .proxy-tabs .card {
+  display: block;
+  height: 184px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.promotion .proxy-tabs .card img {
+  width: 100%;
+  height: 100%;
+}
+
+/* 直播部分 */
+.proxy_box .promotion,
+.proxy_box .liveSpace,
+.proxy_box .cartoon,
+.proxy_box .anime {
+  margin-bottom: 40px;
+}
+
+.liveSpace .proxy-tabs .tab {
+  margin: 0 16px 16px 0;
+  justify-content: flex-start;
+}
+
+/* 动画部分 */
+.cartoon .proxy-tabs .tab {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.proxy-tabs .tab .name {
+  font-size: 20px;
+}
+
+.cartoon .proxy-list .live-list .up .up_txt .name {
+  height: 40px;
+}
+
+/* 动画-动画右侧 */
+.proxy-tabs .ranking {
+  height: 404px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ranking .rank {
+  position: relative;
+  height: 20px;
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ranking .rank:last-child {
+  margin-bottom: 0;
+}
+
+.ranking .rank .pvc {
+  position: absolute;
+  top: -138px;
+  width: 320px;
+  padding: 12px;
+  border-radius: 2px;
+  z-index: 2;
+  box-shadow: 0 1px 6px rgb(0 0 0 / 20%);
+  box-sizing: border-box;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ranking .rank .pvc .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ranking .rank .pvc .content img {
+  width: 112px;
+  height: 63px;
+  border-radius: 2px;
+  background-color: #00a1d6;
+}
+
+.ranking .rank .pvc .content .info {
+  padding-left: 10px;
+}
+
+.ranking .rank .pvc .content .info .title {
+  width: 180px;
+  font-weight: 700;
+  color: #212121;
+  min-height: 20px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  white-space: normal;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.ranking .rank .pvc .content .info .subtitle {
+  font-size: 12px;
+  color: #505050;
+}
+
+.ranking .rank .pvc .content .info .subtitle .point {
+  padding: 0 5px;
+}
+
+.ranking .rank .pvc .count {
+  padding-top: 12px;
+  margin-top: 12px;
+  border-top: 1px solid #e7e7e7;
+  width: 100%;
+}
+
+.ranking .rank .pvc .count ul {
+  display: flex;
+  justify-content: space-between;
+  color: #999;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.ranking .rank .pvc .count ul li i::before {
+  content: '';
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+.ranking .rank .pvc .count ul li:nth-child(1) i::before {
+  background: url(../image/play_black.png) no-repeat center;
+  background-size: contain;
+}
+
+.ranking .rank .pvc .count ul li:nth-child(2) i::before {
+  background: url(../image/desc.png) no-repeat center;
+  background-size: contain;
+}
+
+.ranking .rank .pvc .count ul li:nth-child(3) i::before {
+  background: url(../image/star.png) no-repeat center;
+  background-size: contain;
+}
+
+.ranking .rank .pvc .count ul li:nth-child(4) i::before {
+  background: url(../image/bbi.png) no-repeat center;
+  background-size: contain;
+}
+
+.ranking .hot {
+  height: 64px !important;
+}
+
+.ranking .rank .on {
+  background-color: #00a1d6;
+}
+
+.proxy-tabs .ranking .rank .number {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.ranking .rank .title {
+  width: 290px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  transition: color 0.3s;
+}
+
+.ranking .rank .preview {
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ranking .rank .preview .pic {
+  width: 112px;
+  height: 64px;
+}
+
+.ranking .rank .preview .pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.ranking .rank .preview .txt {
+  width: 166px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ranking .rank .preview .txt .title {
+  width: 166px;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  transition: color 0.3s;
+}
+
+.ranking .rank .preview .txt span {
+  font-size: 12px;
+  color: #505050;
+}
+
+/* 番剧类 */
+.anime .proxy-list .title .con .week {
+  width: 416px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+.anime .proxy-list .title .con .week .tab-switch {
+  height: 30px;
+  line-height: 30px;
+  margin-right: 24px;
+}
+.anime .proxy-list .title .con .week .on {
+  color: #00a1d6;
+  border-bottom: 1px solid #00a1d6;
+}
+.anime .proxy-list .title .exchange .time-line {
+  width: 112px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #00a1d6;
+  border: 1px solid #00a1d6;
+  transition: all 0.3s;
+}
+.anime .proxy-list .title .exchange .time-line:hover {
+  background-color: #00a1d6;
+  color: #fff;
+}
+.anime .proxy-list .title .exchange .time-line:hover i {
+  background: url(./../image/right_white.png) no-repeat center;
+  background-size: contain;
+}
+.anime .anime-list {
+  height: 376px;
+  overflow-y: auto;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
